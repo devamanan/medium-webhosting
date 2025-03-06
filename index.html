@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevaManan is hosting this website</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            color: white;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            transition: background 0.3s ease-in-out;
+        }
+        .button:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Welcome to DevaManan Website!</h1>
+    <p>Hosted via Amazon S3 & Delivered via CloudFront by himself</p>
+    <a href="#" class="button">Explore More</a>
+</body>
+</html>
